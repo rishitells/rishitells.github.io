@@ -4,6 +4,8 @@ date: "2021-07-04T22:12:03.284Z"
 description: "Configuring Jest Tests in GitLab CI"
 ---
 
+For teams doing continuous integration delivery of software projects, running unit/integration tests in automated pipelines becomes essential for ensuring correctness and quality of code. GitLab provides an easy-to-configure automated pipelines setup which we can utilise to run anything before deploying to environments. In this article, we'll setup automated tests and coverage reports for JavaScript projects using the [Jest testing framework](http://jestjs.io). 
+
 ### 1. Add GitLab CI configuration file in the root
 
 In the root of your project, add `.gitlab-ci.yml` with the configuration below.
